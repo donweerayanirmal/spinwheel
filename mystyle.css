@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+ /*body{font-family: 'Roboto', sans-serif !important; }*/
+  body{font-family: 'Lato', sans-serif !important; }
+
+
+
+.myLayersClassv 
+{
+	position: relative;
+	visibility: visible;
+	background: #EAF8F9;
+	border: 1px solid #FF5C1E;
+}
+
+.myLayersClassvn 
+{
+	position: relative;
+	visibility: visible;
+	background: #EAF8F9;
+	border: 1px solid #ffd8b0;
+}
+
+
+.a0{background-color: #DCDCDC;}
+.a1{background-color: #EEEEEE;}
+
+
+
+
+.myLayersClassh {
+	position: relative;
+	visibility: hidden;
+	background: #EAF8F9;
+	border: 1px solid #6495ED;
+}
+
+.lbl {
+	background-color: #C0E1EB;
+	/*font-weight: bold;*/
+	font-size:14;
+}
+
+BODY {
+	
+	/*font-family: Arial, Tahoma, Helvetica, sans-serif;*/
+	font-family: 'Lato', sans-serif !important;
+	font-size:12px
+}
+
+LABEL {
+	background: #C0E1EB;
+}
+
+A:LINK, A:VISITED {
+	color : #000099;
+	text-decoration : none;
+}
+
+A:HOVER {
+	background-color : #FFFFFF;
+	color : #00009F;
+	text-decoration : none;
+}
+
+TABLE{
+	
+	border: none;
+	font: 12px;
+}
+.col0 {width: 5%}
+.col1 {width: 40%}
+.col2 {width: 10%}
+.col3 {width: 25%}
+.col4 {width: 10%}
+
+H1 {
+	color: #191970;
+	/*font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;*/
+	font-family: 'Lato', sans-serif !important;
+	font-size: 250%;
+	
+    margin-top: 2.7em;
+	margin-left: -5%;
+}
+
+
+
+H2 {
+	color: #00008B;
+	/*font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;*/
+	font-family: 'Lato', sans-serif !important;
+	font-size: 120%;
+	margin-left: -5%;
+	margin-top: 2.7em;
+}
+
+H3 {
+	color: #43465C;
+	/*font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;*/
+	font-family: 'Lato', sans-serif !important;
+	font-size: 115%;
+	margin-left: -5%;
+	margin-top: 2em;
+}
+
+H4 {
+	color : #000099;
+	/*font-family : Verdana, Tahoma, Arial, Helvetica, sans-serif;*/
+	font-family: 'Lato', sans-serif !important;
+	font-size : 14px;
+	font-weight : bold;
+	text-align :center; 
+}
+
+H5 {
+	color : #990000;
+	/*font-family : Verdana, Tahoma, Arial, Helvetica, sans-serif;*/
+	font-family: 'Lato', sans-serif !important;
+	font-size : 14px;
+	font-weight : bold;
+	text-align :center; 
+}
+
+H6 {
+	color : #000000;
+	/*font-family : Arial, Helvetica, sans-serif;*/
+	font-family: 'Lato', sans-serif !important;
+	font-size : 100%;
+	font-style : italic;
+	font-weight : 800;
+	margin-bottom : -0.8em;
+}
+
+BLOCKQUOTE {
+	margin-left : 0;
+}
+
+CAPTION {
+	/*font-family : Verdana, Tahoma, Arial, Helvetica, sans-serif;*/
+	font-family: 'Lato', sans-serif !important;
+	font-weight : 100;
+}
+/*
+TH {
+	background-color: #C0E1EB;
+}
+*/
+TD {
+	height:10px;
+}
+
+div {
+	/*background-color: #ccffcc;*/
+	background-color: inherit;
+}
+
+p{
+	
+	/*font-family: Verdana;*/
+	font-family: 'Lato', sans-serif !important;
+	font-size: 12px;
+	
+}
+
+p .highlighted{
+	
+	/*font-family: Arial Narrow;*/
+	font-family: 'Lato', sans-serif !important;
+	font-variant: small-caps;
+	font-size: 12px;
+	font-weight: 120px;
+	letter-spacing: 10px;
+	line-height: 20px;
+}
+
+.submit{
+	background-color: #0d6efd;
+	border: outset;
+	/*font-family: Arial;*/
+	font-family: 'Lato', sans-serif !important;
+	letter-spacing: 5px;
+	font-size: 12px;
+    font-weight: 200;
+	width: 120px;
+	height: 25px;
+	text-align: center;
+	border-radius: 10px;
+	color: #fff;
+   
+}
+.submit2{
+	background-color: #198754;
+	border: outset;
+	/*font-family: Arial;*/
+	font-family: 'Lato', sans-serif !important;
+	letter-spacing: 4px;
+	font-size: 12px;
+    font-weight: 200;
+	width: 175px;
+	height: 25px;
+	text-align: center;
+	border-radius: 10px;
+	color: #fff;
+   
+}
+
+.reset{
+	background-color: #fbbd0a;
+	border: outset;
+	/*font-family: Arial;*/
+	font-family: 'Lato', sans-serif !important;
+	letter-spacing: 5px;
+	font-size: 12px;
+	font-weight: 200;
+	width: 120px;
+	height: 25px;
+	text-align: center;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.button{
+	background-color: #FFCC00;
+	border: outset;
+	/*font-family: Arial;*/
+	font-family: 'Lato', sans-serif !important;
+	letter-spacing: 5px;
+	font-size: 12px;
+	font-weight: 200;
+	width: 120px;
+	height: 25px;
+	text-align: center;
+	color: #fff;
+	
+}
+
+
+form{
+	/*font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;*/
+	font-family: 'Lato', sans-serif !important;
+	font-size: 12px;
+}
+
+input{
+	height:18px;
+	font-size:9px;
+}
+
+select{
+	height:18px;
+	font-size:9px;
+}

@@ -1,0 +1,146 @@
+/*-----------------  GOOGLE FONTS  -----------------*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+/*-----------------  VARIABLES  -----------------*/
+:root {
+    /* Colors */ 
+    --white_color : rgb(255, 255, 255);
+    --gold_color: rgb(255, 215, 0);
+    --green_color: rgb(45, 252, 26);
+    --body_background: linear-gradient(to right, #141e30, #243b55);
+    --spin_background: linear-gradient(to right, #fc4a1a, #f7b733);
+}
+/*-----------------  Base  -----------------*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Serif', serif;
+}
+body {
+  height: 100vh;
+  background: var(--body_background);
+  zoom: 70%; 
+}
+/*-----------------  Styling Start  -----------------*/
+
+
+
+/* Styles for the Image Gallery */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%; /* Adjust as needed */
+  height: 80%;
+  position: absolute;
+  left: 3%;
+  top: 5vh;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.square {
+  width: 6rem; /* Adjust square size */
+  height: 6rem; /* Adjust square size */
+  margin: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotateImageY 20s infinite linear;
+  transform-style: preserve-3d; /* Enable 3D transformations */
+}
+
+.square img {
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 1; /* Adjust opacity as needed */
+}
+
+/* Animation for the Image Gallery */
+@keyframes rotateImageY {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+/* Styles for the Image Gallery */
+
+/* Overlay for the background image */
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place above the background image */
+  pointer-events: none;
+}
+
+/* Style for the sentence */
+.sentence-container {
+  font-size: 27px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjust as needed */
+  transform: translateY(-50%);
+  text-align: left;
+  color: transparent;
+  -webkit-text-stroke: 1px #030303;
+  background: url('images/back.png');
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 50s linear infinite;
+  line-height: 2.5;
+}
+@keyframes back{
+  100%{
+    background-position: 2000px 0;
+  }
+}
+
+ /* Center the button */
+ .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 130vh;
+}
+
+/* Add background image and make it a hyperlink */
+body {
+  background: url('images/SpinBackground.jpg') no-repeat center center fixed;
+  background-size: cover;
+  cursor: pointer; /* Change cursor to indicate it's clickable */
+}
+
+/* Style for the footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Style for the footer link */
+.footer a {
+  color: blue; /* Change the color here */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Add custom CSS for the image */
+.corner-image {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 250px; /* Adjust the size as needed */
+  height: 65px; /* Adjust the size as needed */
+  border-radius: 5%;
+  background: none;
+}
+
